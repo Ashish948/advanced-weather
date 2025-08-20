@@ -27,7 +27,7 @@ function Bodies() {
             }}/>
             
             <button className='border-2 border-l-0 px-1.5 mt-4 rounded-xl rounded-l-none bg-[rgb(201,197,197)]
-             cursor-pointer'>Search</button>
+             cursor-pointer'>Search.</button>
              
           </div>
 
