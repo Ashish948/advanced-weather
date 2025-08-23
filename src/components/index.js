@@ -1,4 +1,5 @@
-import Bodies from './Body'
+import Bodies from './Bodies'
+import WeatherForecast from './WeatherForecast'
 
 
-export default Bodies;
+export {Bodies, WeatherForecast}
