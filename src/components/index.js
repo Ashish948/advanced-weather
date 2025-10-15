@@ -1,5 +1,6 @@
 import Bodies from './Bodies'
-import WeatherForecast from './WeatherForecast'
+import Navbar from './Navbar'
+import Nav2 from './Nav2'
 
 
-export {Bodies, WeatherForecast}
+export {Bodies, Navbar, Nav2}
