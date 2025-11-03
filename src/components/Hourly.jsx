@@ -62,17 +62,17 @@ useEffect(() => {
     <>
 
 
-      <div className='bg-[rgb(221,226,226)] h-350 w-screen flex justify-center'>
-        <div className='bg-[rgb(252,253,253)] h-280 w-190 mt-24 rounded-xl'>
-          <div className='border-b-2 border-b-[rgb(202,199,199)]'>
-            <p className='text-xl font-bold pt-4 ml-4'>Hourly Weather: {user}</p>
+      <div className='md:bg-[rgb(221,226,226)] md:h-350 md:w-screen md:flex md:justify-center'>
+        <div className='md:bg-[rgb(252,253,253)] md:h-280 md:w-190 md:mt-24 md:rounded-xl'>
+          <div className='md:border-b-2 md:border-b-[rgb(202,199,199)]'>
+            <p className='md:text-xl md:font-bold md:pt-4 md:ml-4'>Hourly Weather: {user}</p>
           </div>
 
-         <table border="1" className='w-full mt-10'>
+         <table border="1" className='md:w-full md:mt-10'>
               <tr>
-                <th className='p-2 text-center'>Timming</th>
-                <th className='p-2 text-center'>Temperature</th>
-                <th className='p-2 text-center'>Humidity</th>
+                <th className='md:p-2 text-center'>Timming</th>
+                <th className='md:p-2 text-center'>Temperature</th>
+                <th className='md:p-2 text-center'>Humidity</th>
               </tr>
             
           {hour.map((el,ind)=>{
@@ -81,9 +81,9 @@ useEffect(() => {
           return(
               <>
               <tr>
-                <td className='p-2 text-center'>{(ind<10)?`0${ind}:00`:`${ind}:00`}</td>
-                <td className='p-2 text-center'>{el} &deg;C</td>
-                <td className='p-2 text-center'>{hum[ind]}%</td>
+                <td className='md:p-2 text-center'>{(ind<10)?`0${ind}:00`:`${ind}:00`}</td>
+                <td className='md:p-2 text-center'>{el} &deg;C</td>
+                <td className='md:p-2 text-center'>{hum[ind]}%</td>
               </tr>
               </>
             )

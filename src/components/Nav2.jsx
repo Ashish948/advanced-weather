@@ -9,7 +9,6 @@ function Nav2() {
             <Link to="/Today" className='font-bold hover:text-[rgb(112,110,110)]'>Today</Link>
             <Link to="/Hourly" className='font-bold hover:text-[rgb(112,110,110)]'>Hourly</Link>
             <Link to="/TenDay" className='font-bold hover:text-[rgb(112,110,110)]'>Weekly</Link>
-            <Link to="/Monthly" className='font-bold hover:text-[rgb(112,110,110)]'>Monthly</Link>
             <Link to="/MyDashboard" className='font-bold hover:text-[rgb(112,110,110)]'>My Dashboard</Link>
         </div>
      </>
