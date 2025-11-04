@@ -9,8 +9,8 @@ function Navbar() {
     <>
         <div className='w-full h-24 flex items-center justify-between'>
           <div className= 'flex items-center  gap-7 h-full'>
-            <img src="weather_img-removebg-preview.png" className='h-20 ml-4 md:ml-50'/>
-          <p className='text-black hidden md:block md:text-2xl font-bold md:w-90 md:ml-65'>Let's take a look at the weather</p>
+            <img src="weather_img-removebg-preview.png" className='h-20 ml-4'/>
+          <p className='text-black hidden md:block md:text-2xl font-bold md:w-90'>Let's take a look at the weather</p>
           </div>
 
           <div className='flex items-center h-full ml-10'>
