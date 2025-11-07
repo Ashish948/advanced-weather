@@ -26,7 +26,7 @@ function Bodies() {
 
   return (
     <>
-      <div className='relative w-screen bg-[url(public/weth.jpg)] bg-no-repeat bg-cover'>
+      <div className='relative w-screen bg-[url(/weth.jpg)] bg-no-repeat bg-cover'>
 
         <div className='flex flex-col w-full h-screen'>
 

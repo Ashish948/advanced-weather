@@ -37,7 +37,7 @@ function today() {
             
 
 
-                  <div className='flex justify-center h-80 mt-20 bg-[url("cld.jpeg")] bg-cover bg-center bg-no-repeat rounded-4xl p-4'>
+                  <div className='flex justify-center h-80 mt-20 bg-[url("/cld.jpeg")] bg-cover bg-center bg-no-repeat rounded-4xl p-4'>
                     <div className='md:w-90 flex flex-col justify-between py-4 px-4'>
                         <div className='text-md md:text-2xl font-bold flex justify-between text-[rgb(235,230,230)]'>Temperature: {Math.round(feel-273)} &#176;C</div>
                         <div className='text-md md:text-2xl font-bold flex justify-between text-[rgb(235,230,230)]'>Humidity: {hum}&#37;</div>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function CreateAcount() {
   return (
     <>
-        <div className='h-screen w-screen flex justify-center pt-20 relative bg-[url(public/bg.jpg)]'>
+        <div className='h-screen w-screen flex justify-center pt-20 relative bg-[url(/bg.jpg)]'>
 
             <div className=' h-135 md:h-150 w-90 md:w-160 bg-white rounded-3xl'>
 
