@@ -62,11 +62,11 @@ function TenDay() {
 
       <div className='bg-[rgb(252,253,253)] h-145 w-180 mt-24 rounded-xl'>
 
-            <div className='border-b-2 border-b-[rgb(202,199,199)] flex justify-center'>
+            <div className='border-b-2 border-b-[rgb(143,203,231)] bg-[rgb(5,101,146)] flex justify-center'>
                 <p className='text-2xl font-bold py-7'>Weekly ForeCast: </p>
             </div>
 
-            <div className='border-b-2 border-b-[rgb(202,199,199)] flex justify-around'>
+            <div className='border-b-2 border-b-[rgb(143,203,231)] bg-[rgb(143,203,231)] flex justify-around'>
                 <p className='text-xl py-4'>Day 1</p>
                 <p className='text-xl py-4 '>{week[11]} &deg;C</p>
                 <p className='text-xl py-4'> {hum[11]}%</p>
@@ -78,7 +78,7 @@ function TenDay() {
                 <p className='text-xl py-4'> {hum[34]}%</p>
             </div>
 
-            <div className='border-b-2 border-b-[rgb(202,199,199)] flex justify-around'>
+            <div className='border-b-2 border-b-[rgb(143,203,231)] bg-[rgb(143,203,231)] flex justify-around'>
                 <p className='text-xl py-4'> Day 3</p>
                 <p className='text-xl py-4 '>{week[11]} &deg;C</p>
                 <p className='text-xl py-4'> {hum[57]}%</p>
@@ -90,7 +90,7 @@ function TenDay() {
                 <p className='text-xl py-4'> {hum[80]}%</p>
             </div>
 
-            <div className='border-b-2 border-b-[rgb(202,199,199)] flex justify-around'>
+            <div className='border-b-2 border-b-[rgb(143,203,231)] bg-[rgb(143,203,231)] flex justify-around'>
                 <p className='text-xl py-4'> Day 5</p>
                 <p className='text-xl py-4 '>{week[11]} &deg;C</p>
                 <p className='text-xl py-4'> {hum[103]}%</p>
@@ -102,7 +102,7 @@ function TenDay() {
                 <p className='text-xl py-4 ml-4'> {hum[126]}%</p>
             </div>
 
-            <div className='border-b-2 border-b-[rgb(202,199,199)] flex justify-around'>
+            <div className='border-b-2 border-b-[rgb(143,203,231)] bg-[rgb(143,203,231)] flex justify-around'>
                 <p className='text-xl py-4'> Day 7</p>
                 <p className='text-xl py-4 '>{week[11]} &deg;C</p>
                 <p className='text-xl py-4'> {hum[149]}%</p>
@@ -114,3 +114,6 @@ function TenDay() {
 }
 
 export default TenDay
+
+// border-b-[rgb(202,199,199)]
+// border-b-[rgb(143,203,231)] bg-[rgb(143,203,231)]

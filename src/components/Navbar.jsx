@@ -1,6 +1,7 @@
 import React from 'react'
 import SignIn from './SignIn'
 import { Link } from 'react-router-dom'
+import skycast from '../assets/skycast.png'
 
 
 function Navbar() {
@@ -9,7 +10,7 @@ function Navbar() {
     <>
         <div className='w-full h-24 flex items-center justify-between'>
           <div className= 'flex items-center  gap-7 h-full'>
-            <img src="weather_img-removebg-preview.png" className='h-20 ml-4'/>
+            <img src={skycast} className='h-35 mt-3'/>
           <p className='text-black hidden md:block md:text-2xl font-bold md:w-90'>Let's take a look at the weather</p>
           </div>
 

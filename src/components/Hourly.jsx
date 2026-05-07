@@ -63,7 +63,7 @@ useEffect(() => {
 
 
       <div className='bg-[rgb(221,226,226)] h-350 w-screen flex justify-center'>
-        <div className='bg-[rgb(252,253,253)] h-280 w-190 md:mt-16 rounded-xl'>
+        <div className='bg-[rgb(143,203,231)] h-280 w-190 md:mt-16 rounded-xl'>
           <div className='border-b-2 border-b-[rgb(202,199,199)]'>
             <p className='text-xl font-bold pt-4 ml-4'>Hourly Weather: {user}</p>
           </div>

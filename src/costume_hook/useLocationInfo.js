@@ -6,11 +6,12 @@ function useLocationInfo(location) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`https://api.geoapify.com/v1/geocode/autocomplete?text=${location}&apiKey=3c23f2b6cf664b9d8f5fd14f85db7049`);
+                const response = await fetch(`http://localhost:3001/api/geocode?text=${location}`);
                 const result = await response.json();
-                setData(result.features);
+                setData(result.features || []);
             } catch (error) {
-                setData([]); // or handle error as needed
+                console.error('Error fetching location:', error);
+                setData([]); 
             }
         };
 

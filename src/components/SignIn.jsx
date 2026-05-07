@@ -12,7 +12,7 @@ function SignIn() {
                 </div>
 
                 <div className='lg:w-145 h-full pl-5'>
-                    <p className='text-2xl md:text-4xl font-bold pt-10 text-[rgb(88,86,86)]'>Hello Dear 😊</p>
+                    <p className='text-2xl md:text-4xl font-bold pt-10 text-[rgb(88,86,86)]'>Hello User 😊</p>
                     <p className='font-bold pt-8 text-[rgb(88,86,86)] text-[15px] md:text-base hidden md:block'>To get weather updates please Log in to get started.</p>
 
                     

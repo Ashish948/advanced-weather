@@ -31,7 +31,7 @@ function Bodies() {
         <div className='flex flex-col w-full h-screen'>
 
           <div className='flex justify-center font-bold my-10'>
-            <h2 className='text-6xl text-[rgb(27,32,59)] pt-15'>Sun & Storm</h2>
+            <h2 className='text-6xl text-[rgb(27,32,59)] pt-15'>The SkyCast</h2>
           </div>
 
           {!today &&
